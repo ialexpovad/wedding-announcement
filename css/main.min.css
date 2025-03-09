@@ -136,17 +136,42 @@ body {
     text-align: center;
     margin: auto;
     font-family: var(--font-serif);
-    font-size: 9vmin
+    font-size: 9vmin;  /* Makes the font size relative to viewport width */
 }
 
 .opening-title span {
     display: inline;
     font-size: inherit;
-    letter-spacing: 0.2em
+    letter-spacing: 0.1em;
 }
 
 .opening-title span:nth-child(2) {
     margin: auto;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .opening-title {
+        font-size: 12vw; /* Adjust font size for mobile */
+    }
+
+    .opening-title span {
+        letter-spacing: 0.1em; /* Adjust letter-spacing for readability */
+    }
+}
+
+/* Media Query for medium screens */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .opening-title {
+        font-size: 8vmin; /* Adjust font size for tablets */
+    }
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1024px) {
+    .opening-title {
+        font-size: 6vmin; /* Adjust font size for large screens */
+    }
 }
 
 .text {
