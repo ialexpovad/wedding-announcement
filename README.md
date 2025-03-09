@@ -1,6 +1,6 @@
 # Wedding Announcement
 
-This repository contains the website for Margarita & Aliaksandr's wedding announcement.
+This repository contains the [website](https://ialexpovad.github.io/wedding-announcement/) for Margarita & Aliaksandr's wedding announcement.
 
 ## Description
 
